@@ -1,16 +1,49 @@
-### Hi there 👋
+<div align="center">
+  
+# Hello!
+I make spaghetti as a hobby
+</div>
 
-<!--
-**harulol/harulol** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Brief description about me
+`about.js`
+```js
+function About() {
+  return {
+    alias: 'hawu',
+    hobby: this
+  }
+}
 
-Here are some ideas to get you started:
+export default About
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Languages that I find comfortable
+`KnownLanguages.kt`
+```kotlin
+fun getAllKnownLanguages() = listOf("Kotlin", "Java")
+```
+
+### Languages that I have learned to a certain extent
+`PartiallyKnownLanguages.scala`
+```scala
+def partiallyKnownLanguages: List[String] = "Scala" :: "JS/TS" :: "HTML Stuff" :: Nil 
+```
+
+### Languages that I only read about
+`very-little-known-languages.clj`
+```clojure
+(defn getVeryLittleKnownLangs
+    ([] (["Clojure" "PHP" "SQL"]) ))
+```
+
+### Languages that I would like to learn
+`would_like_to_learn_languages.cpp`
+```cpp
+vector<string> get_languages() {
+	vector<string> languages;
+	languages.push_back("c++");
+	languages.push_back("c");
+	languages.push_back("c#");
+	return languages;
+}
+```
