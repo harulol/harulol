@@ -1,65 +1,66 @@
-<div align="center">
-  
-# Hello!
-I make spaghetti as a hobby
+<div align="right">
+
+![Profile Views Badge](https://komarev.com/ghpvc/?username=harulol)
 </div>
 
-### Brief description about me
-`about.js`
 ```js
-function About() {
+/**
+ * This function returns a JSON object with information
+ * about me!
+ */
+export default function About() {
   return {
     alias: 'hawu',
-    hobby: this
+    website: 'https://www.hawu.dev/',
+    timezone: 9,
+    hobby: 'coding'
   }
 }
-
-export default About
 ```
 
-### Languages that I find comfortable using
-`KnownLanguages.kt`
 ```kotlin
-fun getAllKnownLanguages() = listOf("Kotlin", "Java")
+/**
+  * Retrieves a list of (programming) languages I'm comfortable
+  * working with and have decent experience with.
+  */
+fun getKnownLanguages() = listOf("Kotlin", "Java")
 ```
 
-### Languages that I have learned to a certain extent
-`PartiallyKnownLanguages.scala`
 ```scala
-def partiallyKnownLanguages: List[String] = "Scala" :: "Groovy" :: "JS/TS" :: "HTML Stuff" :: "Python" :: Nil 
+/** Retrieves a list of (programming) languages that I've worked
+  * with to a good extent, but can and will learn many more things
+  * on the way.
+  */
+def partiallyKnownLanguages: List[String] = 
+  List(
+    "Scala", 
+    "Groovy", 
+    "JavaScript", 
+    "TypeScript", 
+    "HTML", 
+    "CSS", 
+    "Python",
+  )
 ```
 
-### Languages that I only read about
-`very-little-known-languages.clj`
 ```clojure
-(defn getVeryLittleKnownLangs
-    ([] (["Clojure" "PHP" "SQL" "Pascal"]) ))
+(defn getLittleKnownLanguages
+  "Retrieves a list of (programming) languages that I have worked with in very few projects, without knowing most of the provided standard libraries."
+  [] (["Clojure" "Pascal" "C++" "C" "C#" "Go" "Rust" "Dyalog APL"]))
 ```
 
-### Languages that I would like to learn
-`would_like_to_learn_languages.cpp`
-```cpp
-vector<string> get_languages() {
-    vector<string> languages;
-    languages.push_back("c++");
-    languages.push_back("c");
-    languages.push_back("c#");
-    languages.push_back("swift");
-    languages.push_back("go");
-    return languages;
+```go
+// Retrieves an array of strings with names of languages or frameworks
+// that I might learn next.
+func getLanguagesToLearn() []string {
+  return [...]string{"Swift", "Assembly", "PHP", "WASM", "Nuxt", "Vue", "Angular"}
 }
 ```
 
-### Other stuff that I might be learning
-`learning_stuff.py`
 ```python
-def get_currently_learning_stuff():
-    return []
+def get_currently_learning():
+  # Retrieves a list of things that I might be learning at the moment of writing this.
+  return ["React", "NextJS"]
 ```
 
-`planning-to-learn.swift`
-```swift
-func getPlanningToLearnStuff() -> [String] {
-    return ["vue.js/nuxt.js", "assembly", "docker"]
-}
-```
+## Pretty simple README, right? :)
