@@ -1,66 +1,116 @@
-<div align="right">
+# Hello!
 
-![Profile Views Badge](https://komarev.com/ghpvc/?username=harulol)
-</div>
+My name is **Hawu**. And now, I shall assault your eyes with emojis to catch your attention.
 
-```js
-/**
- * This function returns a JSON object with information
- * about me!
- */
-export default function About() {
-  return {
-    alias: 'hawu',
-    website: 'https://www.hawu.dev/',
-    timezone: 9,
-    hobby: 'coding'
-  }
+## General Stuff
+
+My alias "Hawu" is just an unoriginal name from the other name that I also go by, "Haru".
+
+I reside in a certain Asian country, please do not name or my stomach will be ripped. Timezone is +9 in case of contact.
+
+Below is just a random block for no reason.
+
+<details>
+<summary>Blob</summary>
+
+```c
+// general.c
+
+struct Person
+{
+    char *name;
+    char *alias;
+    int timezone;
+};
+
+struct Person *get_current()
+{
+    struct Person *person = (struct Person *)malloc(sizeof(struct Person));
+    person->name = (char *)malloc(MAX);
+    person->alias = (char *)malloc(MAX);
+
+    strcpy(person->name, "Haru"); // My name is probably Haru, you don't know.
+    strcpy(person->alias, "Hawu"); // An online alias, which is an unoriginal take on Haru.
+
+    person->timezone = 9;
+    return person;
 }
 ```
+</details>
+
+## Languages
+
+I mean, I learn new things every day. I can't claim I know by heart any languages. All languages kinda have the same concepts, just different ways of executing, syntaxes, etc.
+
+Oh, and if you're asking about natural languages, I speak mostly **English**, kinda obvious though.
+
+**Languages that I would be comfortable working with**:
+
+<img src="./assets/java.png" width=48 alt="Java" />
+<img src="./assets/kotlin.svg" width=48 alt="Kotlin" />
+
+**Languages that I have worked with quite a bit, but not quite THAT comfortable**:
+
+<img src="./assets/scala.png" width=30 alt="Scala" />
+<img src="./assets/python.png" width=48 alt="Python" />
+<img src="./assets/javascript.png" width=48 alt="JavaScript" />
+<img src="./assets/typescript.png" width=48 alt="TypeScript" />
+
+**Languages that I have learned and used quite rarely**:
+
+<img src="./assets/clojure.png" width=48 alt="Clojure" />
+<img src="./assets/c.png" width=48 alt="C" />
+<img src="./assets/cpp.png" width=48 alt="C++" />
+<img src="./assets/go.png" width=128 alt="Go" />
+<img src="./assets/groovy.png" width=100 alt="Groovy" />
+
+**Languages that I have tried learning**:
+
+<img src="./assets/rust.png" width=48 alt="Rust" />
+<img src="./assets/apl.png" width=48 alt="Dyalog APL" />
+<img src="./assets/c-sharp.png" width=42 alt="C-Sharp" />
+
+And below you see a random block of characters that you need not understand.
+
+<details>
+<summary>Blob</summary>
 
 ```kotlin
-/**
-  * Retrieves a list of (programming) languages I'm comfortable
-  * working with and have decent experience with.
-  */
-fun getKnownLanguages() = listOf("Kotlin", "Java")
+// comfortable-languages.kt
+
+fun getComfortableLanguages() = listOf("Kotlin", "Java")
 ```
 
 ```scala
-/** Retrieves a list of (programming) languages that I've worked
-  * with to a good extent, but can and will learn many more things
-  * on the way.
-  */
-def partiallyKnownLanguages: List[String] = 
+// known-languages.scala
+
+def knownLanguages: List[String] = 
   List(
     "Scala", 
-    "Groovy", 
+    "Python", 
     "JavaScript", 
-    "TypeScript", 
-    "HTML", 
-    "CSS", 
-    "Python",
+    "TypeScript",
   )
 ```
 
 ```clojure
-(defn getLittleKnownLanguages
-  "Retrieves a list of (programming) languages that I have worked with in very few projects, without knowing most of the provided standard libraries."
-  [] (["Clojure" "Pascal" "C++" "C" "C#" "Go" "Rust" "Dyalog APL"]))
+;; rarely-used-languages.clj
+
+(defn get-rarely-used-languages []
+  '("Clojure" "C" "C++" "Go" "Groovy"))
 ```
 
-```go
-// Retrieves an array of strings with names of languages or frameworks
-// that I might learn next.
-func getLanguagesToLearn() []string {
-  return [...]string{"Swift", "Assembly", "PHP", "WASM", "Nuxt", "Vue", "Angular"}
+```rust
+// tried-languages.rs
+
+pub fn get_tried_languages() -> Vec<String> {
+  vec!["Rust".to_string(), "Dyalog APL".to_string(), "C#".to_string()]
 }
 ```
+</details>
 
-```python
-def get_currently_learning():
-  # Retrieves a list of things that I might be learning at the moment of writing this.
-  return ["React", "NextJS"]
-```
+## Goals for now?
 
-## Pretty simple README, right? :)
+Probably just to learn **Rust** better, and maybe **Swift** in near future. My goal is just simply to be flexible and can utilize many tools to get the job done.
+
+Learning new things is always fun, and I'm always open to.
