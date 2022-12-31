@@ -46,17 +46,27 @@ Oh, and if you're asking about natural languages, I speak mostly **English**, ki
 
 **Languages that I would be comfortable working with**:
 
+<p float="left">
+
 <img src="./assets/java.png" width=48 alt="Java" />
 <img src="./assets/kotlin.svg" width=48 alt="Kotlin" />
 
+</p>
+
 **Languages that I have worked with quite a bit, but not quite THAT comfortable**:
+
+<p float="left">
 
 <img src="./assets/scala.png" width=30 alt="Scala" />
 <img src="./assets/python.png" width=48 alt="Python" />
 <img src="./assets/javascript.png" width=48 alt="JavaScript" />
 <img src="./assets/typescript.png" width=48 alt="TypeScript" />
 
+</p>
+
 **Languages that I have learned and used quite rarely**:
+
+<p float="left">
 
 <img src="./assets/clojure.png" width=48 alt="Clojure" />
 <img src="./assets/c.png" width=48 alt="C" />
@@ -64,11 +74,17 @@ Oh, and if you're asking about natural languages, I speak mostly **English**, ki
 <img src="./assets/go.png" width=128 alt="Go" />
 <img src="./assets/groovy.png" width=100 alt="Groovy" />
 
+</p>
+
 **Languages that I have tried learning**:
+
+<p float="left">
 
 <img src="./assets/rust.png" width=48 alt="Rust" />
 <img src="./assets/apl.png" width=48 alt="Dyalog APL" />
 <img src="./assets/c-sharp.png" width=42 alt="C-Sharp" />
+
+</p>
 
 And below you see a random block of characters that you need not understand.
 
