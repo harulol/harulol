@@ -6,41 +6,13 @@ My name is **Hawu**. And now, I shall assault your eyes with emojis to catch you
 
 My alias "Hawu" is just an unoriginal name from the other name that I also go by, "Haru".
 
-I reside in a certain Asian country, please do not name or my stomach will be ripped. Timezone is +9 in case of contact.
+I reside in a certain Asian country, please do not name or my stomach will be ripped. Timezone ranges from +6 to +10 in case of contact.
 
-Below is just a random block for no reason.
-
-<details>
-<summary>Blob</summary>
-
-```c
-// general.c
-
-struct Person
-{
-    char *name;
-    char *alias;
-    int timezone;
-};
-
-struct Person *get_current()
-{
-    struct Person *person = (struct Person *)malloc(sizeof(struct Person));
-    person->name = (char *)malloc(MAX);
-    person->alias = (char *)malloc(MAX);
-
-    strcpy(person->name, "Haru"); // My name is probably Haru, you don't know.
-    strcpy(person->alias, "Hawu"); // An online alias, which is an unoriginal take on Haru.
-
-    person->timezone = 9;
-    return person;
-}
-```
 </details>
 
 ## Languages
 
-I mean, I learn new things every day. I can't claim I know by heart any languages. All languages kinda have the same concepts, just different ways of executing, syntaxes, etc.
+I mean, I learn new things every day. I can't claim I know by heart any languages. All languages kinda have the same very core concepts, just different ways of executing, syntaxes, etc.
 
 Oh, and if you're asking about natural languages, I speak mostly **English**, kinda obvious though.
 
@@ -85,45 +57,6 @@ Oh, and if you're asking about natural languages, I speak mostly **English**, ki
 <img src="./assets/c-sharp.png" width=42 alt="C-Sharp" />
 
 </p>
-
-And below you see a random block of characters that you need not understand.
-
-<details>
-<summary>Blob</summary>
-
-```kotlin
-// comfortable-languages.kt
-
-fun getComfortableLanguages() = listOf("Kotlin", "Java")
-```
-
-```scala
-// known-languages.scala
-
-def knownLanguages: List[String] = 
-  List(
-    "Scala", 
-    "Python", 
-    "JavaScript", 
-    "TypeScript",
-  )
-```
-
-```clojure
-;; rarely-used-languages.clj
-
-(defn get-rarely-used-languages []
-  '("Clojure" "C" "C++" "Go" "Groovy"))
-```
-
-```rust
-// tried-languages.rs
-
-pub fn get_tried_languages() -> Vec<String> {
-  vec!["Rust".to_string(), "Dyalog APL".to_string(), "C#".to_string()]
-}
-```
-</details>
 
 ## Goals for now?
 
